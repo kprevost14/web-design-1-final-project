@@ -1,9 +1,91 @@
-<!---The maximum width of the container is 1280px. This would be applied to each section (preferably using a reusable class like 'wrapper').--->
+header h1 {
+    font-family: "Yantramanav", sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    color: white;
+}
 
+header ul, li a {
+    font-family: "Yantramanav", sans-serif;
+    font-weight: 300; 
+    font-size: 1rem;   
+    color: white; 
+    flex-direction: row;
+    justify-content: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding: .5rem;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+ 
+header {
+    max-width: 1280px;
+    background-color: #0E1215;
+    padding: 1em;
+}
+
+ 
 div h1 {
     font-family: "Yantramanav", sans-serif;
-    
+    font-weight: 700;
+}
 
+header ul {
+    font-family: "Yantramanav", sans-serif;
+    font-weight: 300;
+}
+
+main h1 {
+    font-family: "Yantramanav", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+main h2 {
+    font-family: "Yantramanav", sans-serif;
+    font-weight: 700;
+}
+
+main h3 {
+    font-family: "Yantramanav", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+main h4 {
+        font-family: "Yantramanav", sans-serif;
+        font-weight: 700;
+        font-size: 1rem;
+}
+
+main p {
+    font-family: "Yantramanav", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+q {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+p small {
+    font-family: "Yantramanav", sans-serif;
+    font-weight: 300;  
 }
 
 
+
+.wrapper div {
+
+}
